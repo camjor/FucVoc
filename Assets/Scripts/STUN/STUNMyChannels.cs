@@ -58,7 +58,7 @@ public class STUNMyChannels : MonoBehaviour {
             { "user-agent", "unity webrtc datachannel" }
         });*/
         //ws = new WebSocket("wss://192.168.10.18:8005/", new Dictionary<string, string>() {
-        ws = new WebSocket($"wss://western-honorable-pleasure.glitch.me/{nameof(VideoChatMediaStreamService)}", new Dictionary<string, string>() {
+        ws = new WebSocket($"wss://curvy-chivalrous-drug.glitch.me/{nameof(VideoChatMediaStreamService)}", new Dictionary<string, string>() {
             { "user-agent", "unity webrtc datachannel" }
         });
 

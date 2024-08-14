@@ -3818,7 +3818,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1413950161914275253}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ad7ac4c821400342910506ae3e6f9d9, type: 3}
   m_Name: 
@@ -3840,7 +3840,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1413950161914275253}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ad7ac4c821400342910506ae3e6f9d9, type: 3}
   m_Name: 
@@ -3913,6 +3913,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 935544995}
     m_Modifications:
+    - target: {fileID: 1123322061778091322, guid: 0b3d2dd89d8bce74493a273096d31e7c, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2062715005860769160, guid: 0b3d2dd89d8bce74493a273096d31e7c, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.2
@@ -3993,6 +3997,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8261197917665511859, guid: 0b3d2dd89d8bce74493a273096d31e7c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 03aaeb81784a5eb478e47deb17acd1ca, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
