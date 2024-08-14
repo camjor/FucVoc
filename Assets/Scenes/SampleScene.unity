@@ -3852,7 +3852,7 @@ MonoBehaviour:
   sourceImage: {fileID: 8469304568417153489}
   receiveImages:
   - {fileID: 1771776359420572352}
-  inputAudioSource: {fileID: 847702479691389512}
+  inputAudioSource: {fileID: 371488703}
   outputAudioSource: {fileID: 225762108807094557}
   startVideoAudioChannel: 0
   sendMessageViaDataChannel: 0
@@ -6870,7 +6870,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
+        m_CallState: 0
       - m_Target: {fileID: 360383469}
         m_TargetAssemblyTypeName: OVRLipSyncMicInput, Oculus.LipSync
         m_MethodName: StartMicrophone
@@ -6894,7 +6894,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 0
+        m_CallState: 2
 --- !u!114 &7715501044008212899
 MonoBehaviour:
   m_ObjectHideFlags: 0
